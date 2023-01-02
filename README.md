@@ -47,7 +47,7 @@ Kullanıcıdan gelen her isteğin tetiklendiği isteğin geldiği noktada biz ar
 ## 1. Program.cs içerisinde loglama ayarlarımızı gerçekleştiriyoruz bir tablo ve sütun oluşturuyoruz. Nerede bu logları göstereceksek bu ayarları yapıyoruz. MsSQL log ayarlarını yapıyoruz ve ekstra bir sütun oluşturacağımız için User Sütununu ekliyoruz. ##
 ![7](https://user-images.githubusercontent.com/68101192/210206045-dd8014a9-8c80-432a-9f67-6a6124ddebf9.png)
 
-## 2. Loglama sürecindeki property değerlerindne UserName'i manuel olarak oluşturmak için Abstract sınıfından türeyen bir sınıf oluşturuyoruz ve bu sınıf içerisinde de logu veritabanına kaydediyoruz.  ##
+## 2. Loglama sürecindeki property değerlerinden UserName'i manuel olarak oluşturmak için Abstract sınıfından türeyen bir sınıf oluşturuyoruz ve bu sınıf içerisinde de logu veritabanına kaydediyoruz.  ##
 ![8](https://user-images.githubusercontent.com/68101192/210206466-8abb05a6-2514-45f1-8f34-f25a43242c3b.png)
 
 ## 3. Cookie üzerinden yukarıda belirtmiş olduğumuz sınıfa bir UserName değeri getirmek için bir middleware yazmamız gerekiyor bu middleware ile User.Identity.UserName değerini elde ediyor ve sonra bu sınıfta kullanıyoruz. Aşağıdaki gibi bir middleware..  ##
