@@ -1,4 +1,4 @@
-# IdentityLog Working App NET7#
+# IdentityLog Working App NET7 #
 
 ## Identity Cookie UserName'i Custom Logging İşlemleri ile loglamaya dahil etmek ve Txt,Konsol,MsSQL,Seq Üzerinde göstermek. ##
 
