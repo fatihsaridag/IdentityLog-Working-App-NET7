@@ -1,3 +1,16 @@
+# IdentityLog Working App NET7#
+
+## Identity Cookie UserName'i Custom Logging İşlemlerinde dahil etmek ve Txt,Konsol,MsSQL,Seq Üzerinde göstermek. ##
+
+## Kullanılan Kütüphaneler ##
+1. Microsoft.EntityFrameworkCore 
+2. Microsoft.EntityFrameworkCore.Design 
+3. Microsoft.EntityFrameworkCore.SqlServer  
+4. Microsoft.AspNetCore.Identity.EntityFrameWorkCore
+5. Serilog.AspNetCore
+6. Serilog.Sinks.MSSqlServer
+7. Serilog.Sinks.Seq
+
 # Loglar #
 Loglar uygulamada runtime yaşanan problemleri yönetebilmemizi kolaylaştırmak için kullandığımız bir yapılanmadır.
 
