@@ -1,0 +1,298 @@
+2023-01-02 09:27:52.892 +03:00 [INF] User profile is available. Using 'C:\Users\fatih\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-02 09:27:53.047 +03:00 [INF] Now listening on: https://localhost:7118
+2023-01-02 09:27:53.049 +03:00 [INF] Now listening on: http://localhost:5051
+2023-01-02 09:27:53.052 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-02 09:27:53.053 +03:00 [INF] Hosting environment: Development
+2023-01-02 09:27:53.054 +03:00 [INF] Content root path: C:\Users\fatih\source\repos\IdentityLog\IdentityLog
+2023-01-02 09:27:53.836 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/ - -
+2023-01-02 09:27:53.890 +03:00 [INF] Executing endpoint 'IdentityLog.Controllers.HomeController.Index (IdentityLog)'
+2023-01-02 09:27:53.926 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityLog.Controllers.HomeController (IdentityLog).
+2023-01-02 09:27:54.148 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-02 09:27:54.294 +03:00 [INF] Executed ViewResult - view Index executed in 148.5461ms.
+2023-01-02 09:27:54.299 +03:00 [INF] Executed action IdentityLog.Controllers.HomeController.Index (IdentityLog) in 371.0913ms
+2023-01-02 09:27:54.301 +03:00 [INF] Executed endpoint 'IdentityLog.Controllers.HomeController.Index (IdentityLog)'
+2023-01-02 09:27:54.331 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/ - - - 200 - text/html;+charset=utf-8 496.4410ms
+2023-01-02 09:27:54.343 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+2023-01-02 09:27:54.343 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - -
+2023-01-02 09:27:54.343 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/IdentityLog.styles.css?v=3xlvbSRLAC1zXLheeI63h6O2Spa6OoTmDrP9VkRO0Vw - -
+2023-01-02 09:27:54.343 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/lib/jquery/dist/jquery.min.js - -
+2023-01-02 09:27:54.343 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-01-02 09:27:54.343 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-01-02 09:27:54.348 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-01-02 09:27:54.353 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_vs/browserLink - -
+2023-01-02 09:27:54.367 +03:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2023-01-02 09:27:54.367 +03:00 [INF] The file /css/site.css was not modified
+2023-01-02 09:27:54.376 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/lib/jquery/dist/jquery.min.js - - - 304 - text/javascript 33.3251ms
+2023-01-02 09:27:54.377 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 304 - text/css 34.2737ms
+2023-01-02 09:27:54.367 +03:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2023-01-02 09:27:54.367 +03:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2023-01-02 09:27:54.367 +03:00 [INF] The file /js/site.js was not modified
+2023-01-02 09:27:54.376 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 31.4526ms
+2023-01-02 09:27:54.385 +03:00 [INF] Sending file. Request path: '/IdentityLog.styles.css'. Physical path: 'C:\Users\fatih\source\repos\IdentityLog\IdentityLog\obj\Debug\net7.0\scopedcss\bundle\IdentityLog.styles.css'
+2023-01-02 09:27:54.386 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/lib/bootstrap/dist/css/bootstrap.min.css - - - 304 - text/css 43.1199ms
+2023-01-02 09:27:54.387 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 304 - text/javascript 44.2954ms
+2023-01-02 09:27:54.389 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - text/javascript 41.0799ms
+2023-01-02 09:27:54.392 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/IdentityLog.styles.css?v=3xlvbSRLAC1zXLheeI63h6O2Spa6OoTmDrP9VkRO0Vw - - - 200 1128 text/css 49.1772ms
+2023-01-02 09:27:54.439 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 87.3279ms
+2023-01-02 09:35:45.486 +03:00 [INF] User profile is available. Using 'C:\Users\fatih\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-02 09:35:45.621 +03:00 [INF] Now listening on: https://localhost:7118
+2023-01-02 09:35:45.623 +03:00 [INF] Now listening on: http://localhost:5051
+2023-01-02 09:35:45.626 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-02 09:35:45.626 +03:00 [INF] Hosting environment: Development
+2023-01-02 09:35:45.628 +03:00 [INF] Content root path: C:\Users\fatih\source\repos\IdentityLog\IdentityLog
+2023-01-02 09:35:46.254 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/ - -
+2023-01-02 09:35:46.315 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-01-02 09:35:46.326 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2023-01-02 09:35:46.332 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/ - - - 302 0 - 79.7195ms
+2023-01-02 09:35:46.345 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/Home/Login?ReturnUrl=%2F - -
+2023-01-02 09:35:46.358 +03:00 [INF] Executing endpoint 'IdentityLog.Controllers.HomeController.Login (IdentityLog)'
+2023-01-02 09:35:46.379 +03:00 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller IdentityLog.Controllers.HomeController (IdentityLog).
+2023-01-02 09:35:46.503 +03:00 [INF] Executing ViewResult, running view Login.
+2023-01-02 09:35:46.628 +03:00 [INF] Executed ViewResult - view Login executed in 130.2857ms.
+2023-01-02 09:35:46.633 +03:00 [INF] Executed action IdentityLog.Controllers.HomeController.Login (IdentityLog) in 251.2601ms
+2023-01-02 09:35:46.635 +03:00 [INF] Executed endpoint 'IdentityLog.Controllers.HomeController.Login (IdentityLog)'
+2023-01-02 09:35:46.657 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/Home/Login?ReturnUrl=%2F - - - 200 - text/html;+charset=utf-8 311.9374ms
+2023-01-02 09:35:46.661 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/IdentityLog.styles.css?v=3xlvbSRLAC1zXLheeI63h6O2Spa6OoTmDrP9VkRO0Vw - -
+2023-01-02 09:35:46.662 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - -
+2023-01-02 09:35:46.662 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_vs/browserLink - -
+2023-01-02 09:35:46.703 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 41.5034ms
+2023-01-02 09:35:46.712 +03:00 [INF] The file /IdentityLog.styles.css was not modified
+2023-01-02 09:35:46.714 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/IdentityLog.styles.css?v=3xlvbSRLAC1zXLheeI63h6O2Spa6OoTmDrP9VkRO0Vw - - - 304 - text/css 53.3410ms
+2023-01-02 09:35:46.743 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 80.3086ms
+2023-01-02 09:35:54.394 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/Home/Index - -
+2023-01-02 09:35:54.399 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-01-02 09:35:54.401 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2023-01-02 09:35:54.402 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/Home/Index - - - 302 0 - 7.9961ms
+2023-01-02 09:35:54.404 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/Home/Login?ReturnUrl=%2FHome%2FIndex - -
+2023-01-02 09:35:54.405 +03:00 [INF] Executing endpoint 'IdentityLog.Controllers.HomeController.Login (IdentityLog)'
+2023-01-02 09:35:54.406 +03:00 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller IdentityLog.Controllers.HomeController (IdentityLog).
+2023-01-02 09:35:54.416 +03:00 [INF] Executing ViewResult, running view Login.
+2023-01-02 09:35:54.429 +03:00 [INF] Executed ViewResult - view Login executed in 13.1022ms.
+2023-01-02 09:35:54.430 +03:00 [INF] Executed action IdentityLog.Controllers.HomeController.Login (IdentityLog) in 22.2378ms
+2023-01-02 09:35:54.432 +03:00 [INF] Executed endpoint 'IdentityLog.Controllers.HomeController.Login (IdentityLog)'
+2023-01-02 09:35:54.434 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/Home/Login?ReturnUrl=%2FHome%2FIndex - - - 200 - text/html;+charset=utf-8 30.8230ms
+2023-01-02 09:35:54.444 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_vs/browserLink - -
+2023-01-02 09:35:54.444 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - -
+2023-01-02 09:35:54.448 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 4.0798ms
+2023-01-02 09:35:54.471 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.2742ms
+2023-01-02 09:36:38.081 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7118/Home/Login application/x-www-form-urlencoded 252
+2023-01-02 09:36:38.084 +03:00 [INF] Executing endpoint 'IdentityLog.Controllers.HomeController.Login (IdentityLog)'
+2023-01-02 09:36:38.104 +03:00 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(IdentityLog.ViewModels.LoginViewModel) on controller IdentityLog.Controllers.HomeController (IdentityLog).
+2023-01-02 09:36:38.901 +03:00 [INF] Executed DbCommand (29ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-01-02 09:36:38.982 +03:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2023-01-02 09:36:38.985 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2023-01-02 09:36:38.986 +03:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2023-01-02 09:36:39.110 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2023-01-02 09:36:39.134 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2023-01-02 09:36:39.144 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2023-01-02 09:36:39.148 +03:00 [INF] Executing RedirectResult, redirecting to /.
+2023-01-02 09:36:39.150 +03:00 [INF] Executed action IdentityLog.Controllers.HomeController.Login (IdentityLog) in 1042.2031ms
+2023-01-02 09:36:39.151 +03:00 [INF] Executed endpoint 'IdentityLog.Controllers.HomeController.Login (IdentityLog)'
+2023-01-02 09:36:39.155 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/ - -
+2023-01-02 09:36:39.157 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7118/Home/Login application/x-www-form-urlencoded 252 - 302 0 - 1076.1365ms
+2023-01-02 09:36:39.160 +03:00 [INF] Executing endpoint 'IdentityLog.Controllers.HomeController.Index (IdentityLog)'
+2023-01-02 09:36:39.163 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityLog.Controllers.HomeController (IdentityLog).
+2023-01-02 09:36:39.165 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-02 09:36:39.174 +03:00 [INF] Executed ViewResult - view Index executed in 9.3416ms.
+2023-01-02 09:36:39.176 +03:00 [INF] Executed action IdentityLog.Controllers.HomeController.Index (IdentityLog) in 11.4095ms
+2023-01-02 09:36:39.178 +03:00 [INF] Executed endpoint 'IdentityLog.Controllers.HomeController.Index (IdentityLog)'
+2023-01-02 09:36:39.181 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/ - - - 200 - text/html;+charset=utf-8 25.8555ms
+2023-01-02 09:36:39.190 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - -
+2023-01-02 09:36:39.190 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_vs/browserLink - -
+2023-01-02 09:36:39.193 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 2.9616ms
+2023-01-02 09:36:39.230 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 39.7109ms
+2023-01-02 09:37:50.829 +03:00 [INF] User profile is available. Using 'C:\Users\fatih\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-02 09:37:50.956 +03:00 [INF] Now listening on: https://localhost:7118
+2023-01-02 09:37:50.958 +03:00 [INF] Now listening on: http://localhost:5051
+2023-01-02 09:37:50.960 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-02 09:37:50.961 +03:00 [INF] Hosting environment: Development
+2023-01-02 09:37:50.961 +03:00 [INF] Content root path: C:\Users\fatih\source\repos\IdentityLog\IdentityLog
+2023-01-02 09:37:51.611 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/ - -
+2023-01-02 09:37:51.797 +03:00 [INF] Executing endpoint 'IdentityLog.Controllers.HomeController.Index (IdentityLog)'
+2023-01-02 09:37:51.808 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityLog.Controllers.HomeController (IdentityLog).
+2023-01-02 09:37:51.813 +03:00 [INF] Index Sayfasına Giriş Yapıldı.
+2023-01-02 09:37:51.821 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-02 09:37:51.927 +03:00 [INF] Executed ViewResult - view Index executed in 107.8115ms.
+2023-01-02 09:37:51.934 +03:00 [INF] Executed action IdentityLog.Controllers.HomeController.Index (IdentityLog) in 122.8768ms
+2023-01-02 09:37:51.937 +03:00 [INF] Executed endpoint 'IdentityLog.Controllers.HomeController.Index (IdentityLog)'
+2023-01-02 09:37:51.968 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/ - - - 200 - text/html;+charset=utf-8 358.9365ms
+2023-01-02 09:37:51.984 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/IdentityLog.styles.css?v=3xlvbSRLAC1zXLheeI63h6O2Spa6OoTmDrP9VkRO0Vw - -
+2023-01-02 09:37:51.984 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - -
+2023-01-02 09:37:51.984 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_vs/browserLink - -
+2023-01-02 09:37:51.996 +03:00 [INF] The file /IdentityLog.styles.css was not modified
+2023-01-02 09:37:52.002 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/IdentityLog.styles.css?v=3xlvbSRLAC1zXLheeI63h6O2Spa6OoTmDrP9VkRO0Vw - - - 304 - text/css 17.4793ms
+2023-01-02 09:37:52.042 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 58.1466ms
+2023-01-02 09:37:52.071 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 87.0900ms
+2023-01-02 10:02:37.885 +03:00 [INF] User profile is available. Using 'C:\Users\fatih\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-02 10:02:38.042 +03:00 [INF] Now listening on: https://localhost:7118
+2023-01-02 10:02:38.044 +03:00 [INF] Now listening on: http://localhost:5051
+2023-01-02 10:02:38.046 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-02 10:02:38.047 +03:00 [INF] Hosting environment: Development
+2023-01-02 10:02:38.048 +03:00 [INF] Content root path: C:\Users\fatih\source\repos\IdentityLog\IdentityLog
+2023-01-02 10:02:38.726 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/ - -
+2023-01-02 10:02:38.916 +03:00 [INF] Executing endpoint 'IdentityLog.Controllers.HomeController.Index (IdentityLog)'
+2023-01-02 10:02:38.926 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityLog.Controllers.HomeController (IdentityLog).
+2023-01-02 10:02:38.931 +03:00 [INF] Index Sayfasına Giriş Yapıldı.
+2023-01-02 10:02:38.938 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-02 10:02:39.024 +03:00 [INF] Executed ViewResult - view Index executed in 87.0239ms.
+2023-01-02 10:02:39.030 +03:00 [INF] Executed action IdentityLog.Controllers.HomeController.Index (IdentityLog) in 101.2802ms
+2023-01-02 10:02:39.033 +03:00 [INF] Executed endpoint 'IdentityLog.Controllers.HomeController.Index (IdentityLog)'
+2023-01-02 10:02:39.050 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/ - - - 200 - text/html;+charset=utf-8 325.9286ms
+2023-01-02 10:02:39.061 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/IdentityLog.styles.css?v=3xlvbSRLAC1zXLheeI63h6O2Spa6OoTmDrP9VkRO0Vw - -
+2023-01-02 10:02:39.061 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - -
+2023-01-02 10:02:39.061 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_vs/browserLink - -
+2023-01-02 10:02:39.071 +03:00 [INF] The file /IdentityLog.styles.css was not modified
+2023-01-02 10:02:39.074 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/IdentityLog.styles.css?v=3xlvbSRLAC1zXLheeI63h6O2Spa6OoTmDrP9VkRO0Vw - - - 304 - text/css 11.9861ms
+2023-01-02 10:02:39.081 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 19.0414ms
+2023-01-02 10:02:39.105 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 43.6873ms
+2023-01-02 10:02:44.000 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/home/register - -
+2023-01-02 10:02:44.017 +03:00 [INF] Executing endpoint 'IdentityLog.Controllers.HomeController.Register (IdentityLog)'
+2023-01-02 10:02:44.020 +03:00 [INF] Route matched with {action = "Register", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller IdentityLog.Controllers.HomeController (IdentityLog).
+2023-01-02 10:02:44.023 +03:00 [INF] Executing ViewResult, running view Register.
+2023-01-02 10:02:44.070 +03:00 [INF] Executed ViewResult - view Register executed in 47.4616ms.
+2023-01-02 10:02:44.071 +03:00 [INF] Executed action IdentityLog.Controllers.HomeController.Register (IdentityLog) in 49.3719ms
+2023-01-02 10:02:44.072 +03:00 [INF] Executed endpoint 'IdentityLog.Controllers.HomeController.Register (IdentityLog)'
+2023-01-02 10:02:44.077 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/home/register - - - 200 - text/html;+charset=utf-8 77.1057ms
+2023-01-02 10:02:44.086 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - -
+2023-01-02 10:02:44.086 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_vs/browserLink - -
+2023-01-02 10:02:44.087 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 1.7364ms
+2023-01-02 10:02:44.116 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.5202ms
+2023-01-02 10:02:48.455 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/home/login - -
+2023-01-02 10:02:48.487 +03:00 [INF] Executing endpoint 'IdentityLog.Controllers.HomeController.Login (IdentityLog)'
+2023-01-02 10:02:48.491 +03:00 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller IdentityLog.Controllers.HomeController (IdentityLog).
+2023-01-02 10:02:48.493 +03:00 [INF] Executing ViewResult, running view Login.
+2023-01-02 10:02:48.512 +03:00 [INF] Executed ViewResult - view Login executed in 19.1629ms.
+2023-01-02 10:02:48.514 +03:00 [INF] Executed action IdentityLog.Controllers.HomeController.Login (IdentityLog) in 20.9812ms
+2023-01-02 10:02:48.515 +03:00 [INF] Executed endpoint 'IdentityLog.Controllers.HomeController.Login (IdentityLog)'
+2023-01-02 10:02:48.519 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/home/login - - - 200 - text/html;+charset=utf-8 63.8516ms
+2023-01-02 10:02:48.531 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - -
+2023-01-02 10:02:48.532 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_vs/browserLink - -
+2023-01-02 10:02:48.534 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 2.4147ms
+2023-01-02 10:02:48.565 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 33.6401ms
+2023-01-02 10:02:48.947 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/home/login - -
+2023-01-02 10:02:48.949 +03:00 [INF] Executing endpoint 'IdentityLog.Controllers.HomeController.Login (IdentityLog)'
+2023-01-02 10:02:48.951 +03:00 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller IdentityLog.Controllers.HomeController (IdentityLog).
+2023-01-02 10:02:48.956 +03:00 [INF] Executing ViewResult, running view Login.
+2023-01-02 10:02:48.965 +03:00 [INF] Executed ViewResult - view Login executed in 9.5845ms.
+2023-01-02 10:02:48.967 +03:00 [INF] Executed action IdentityLog.Controllers.HomeController.Login (IdentityLog) in 11.9148ms
+2023-01-02 10:02:48.969 +03:00 [INF] Executed endpoint 'IdentityLog.Controllers.HomeController.Login (IdentityLog)'
+2023-01-02 10:02:48.972 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/home/login - - - 200 - text/html;+charset=utf-8 25.1133ms
+2023-01-02 10:02:48.980 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - -
+2023-01-02 10:02:48.980 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_vs/browserLink - -
+2023-01-02 10:02:48.982 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 2.3658ms
+2023-01-02 10:02:49.007 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.0958ms
+2023-01-02 10:02:55.823 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7118/Home/Login application/x-www-form-urlencoded 295
+2023-01-02 10:02:55.827 +03:00 [INF] Executing endpoint 'IdentityLog.Controllers.HomeController.Login (IdentityLog)'
+2023-01-02 10:02:55.842 +03:00 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(IdentityLog.ViewModels.LoginViewModel) on controller IdentityLog.Controllers.HomeController (IdentityLog).
+2023-01-02 10:02:56.648 +03:00 [INF] Executed DbCommand (31ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-01-02 10:02:56.735 +03:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2023-01-02 10:02:56.738 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2023-01-02 10:02:56.739 +03:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2023-01-02 10:02:56.858 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2023-01-02 10:02:56.881 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2023-01-02 10:02:56.894 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2023-01-02 10:02:56.900 +03:00 [INF] Executing RedirectResult, redirecting to /.
+2023-01-02 10:02:56.902 +03:00 [INF] Executed action IdentityLog.Controllers.HomeController.Login (IdentityLog) in 1056.7203ms
+2023-01-02 10:02:56.904 +03:00 [INF] Executed endpoint 'IdentityLog.Controllers.HomeController.Login (IdentityLog)'
+2023-01-02 10:02:56.908 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/ - -
+2023-01-02 10:02:56.910 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7118/Home/Login application/x-www-form-urlencoded 295 - 302 0 - 1086.4941ms
+2023-01-02 10:02:56.911 +03:00 [INF] Executing endpoint 'IdentityLog.Controllers.HomeController.Index (IdentityLog)'
+2023-01-02 10:02:56.912 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityLog.Controllers.HomeController (IdentityLog).
+2023-01-02 10:02:56.914 +03:00 [INF] Index Sayfasına Giriş Yapıldı.
+2023-01-02 10:02:56.916 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-02 10:02:56.923 +03:00 [INF] Executed ViewResult - view Index executed in 7.3197ms.
+2023-01-02 10:02:56.924 +03:00 [INF] Executed action IdentityLog.Controllers.HomeController.Index (IdentityLog) in 10.154ms
+2023-01-02 10:02:56.926 +03:00 [INF] Executed endpoint 'IdentityLog.Controllers.HomeController.Index (IdentityLog)'
+2023-01-02 10:02:56.928 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/ - - - 200 - text/html;+charset=utf-8 20.4084ms
+2023-01-02 10:02:56.939 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_vs/browserLink - -
+2023-01-02 10:02:56.939 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - -
+2023-01-02 10:02:56.943 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 4.0672ms
+2023-01-02 10:02:56.967 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.8509ms
+2023-01-02 10:07:37.683 +03:00 [INF] User profile is available. Using 'C:\Users\fatih\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-02 10:07:37.842 +03:00 [INF] Now listening on: https://localhost:7118
+2023-01-02 10:07:37.844 +03:00 [INF] Now listening on: http://localhost:5051
+2023-01-02 10:07:37.847 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-02 10:07:37.848 +03:00 [INF] Hosting environment: Development
+2023-01-02 10:07:37.849 +03:00 [INF] Content root path: C:\Users\fatih\source\repos\IdentityLog\IdentityLog
+2023-01-02 10:07:38.667 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/ - -
+2023-01-02 10:07:38.857 +03:00 [INF] Executing endpoint 'IdentityLog.Controllers.HomeController.Index (IdentityLog)'
+2023-01-02 10:07:38.871 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityLog.Controllers.HomeController (IdentityLog).
+2023-01-02 10:07:38.877 +03:00 [INF] Index Sayfasına Giriş Yapıldı.
+2023-01-02 10:07:38.885 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-02 10:07:38.974 +03:00 [INF] Executed ViewResult - view Index executed in 90.969ms.
+2023-01-02 10:07:38.980 +03:00 [INF] Executed action IdentityLog.Controllers.HomeController.Index (IdentityLog) in 104.9491ms
+2023-01-02 10:07:38.983 +03:00 [INF] Executed endpoint 'IdentityLog.Controllers.HomeController.Index (IdentityLog)'
+2023-01-02 10:07:39.003 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/ - - - 200 - text/html;+charset=utf-8 337.1508ms
+2023-01-02 10:07:39.017 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_vs/browserLink - -
+2023-01-02 10:07:39.017 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - -
+2023-01-02 10:07:39.039 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 20.9358ms
+2023-01-02 10:07:39.064 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 46.3668ms
+2023-01-02 10:08:52.892 +03:00 [INF] User profile is available. Using 'C:\Users\fatih\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-02 10:08:53.060 +03:00 [INF] Now listening on: https://localhost:7118
+2023-01-02 10:08:53.061 +03:00 [INF] Now listening on: http://localhost:5051
+2023-01-02 10:08:53.064 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-02 10:08:53.065 +03:00 [INF] Hosting environment: Development
+2023-01-02 10:08:53.065 +03:00 [INF] Content root path: C:\Users\fatih\source\repos\IdentityLog\IdentityLog
+2023-01-02 10:08:53.868 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/ - -
+2023-01-02 10:08:54.187 +03:00 [INF] Executing endpoint 'IdentityLog.Controllers.HomeController.Index (IdentityLog)'
+2023-01-02 10:08:54.202 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityLog.Controllers.HomeController (IdentityLog).
+2023-01-02 10:08:54.209 +03:00 [INF] Index Sayfasına Giriş Yapıldı.
+2023-01-02 10:08:54.223 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-02 10:08:54.387 +03:00 [INF] Executed ViewResult - view Index executed in 169.9034ms.
+2023-01-02 10:08:54.394 +03:00 [INF] Executed action IdentityLog.Controllers.HomeController.Index (IdentityLog) in 189.3062ms
+2023-01-02 10:08:54.397 +03:00 [INF] Executed endpoint 'IdentityLog.Controllers.HomeController.Index (IdentityLog)'
+2023-01-02 10:08:54.429 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/ - - - 200 - text/html;+charset=utf-8 564.8994ms
+2023-01-02 10:08:54.440 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/IdentityLog.styles.css?v=3xlvbSRLAC1zXLheeI63h6O2Spa6OoTmDrP9VkRO0Vw - -
+2023-01-02 10:08:54.440 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - -
+2023-01-02 10:08:54.440 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_vs/browserLink - -
+2023-01-02 10:08:54.453 +03:00 [INF] The file /IdentityLog.styles.css was not modified
+2023-01-02 10:08:54.456 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/IdentityLog.styles.css?v=3xlvbSRLAC1zXLheeI63h6O2Spa6OoTmDrP9VkRO0Vw - - - 304 - text/css 15.3841ms
+2023-01-02 10:08:54.459 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 18.5453ms
+2023-01-02 10:08:54.566 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 126.0620ms
+2023-01-02 10:10:31.578 +03:00 [INF] User profile is available. Using 'C:\Users\fatih\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-02 10:10:31.733 +03:00 [INF] Now listening on: https://localhost:7118
+2023-01-02 10:10:31.736 +03:00 [INF] Now listening on: http://localhost:5051
+2023-01-02 10:10:31.737 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-02 10:10:31.738 +03:00 [INF] Hosting environment: Development
+2023-01-02 10:10:31.739 +03:00 [INF] Content root path: C:\Users\fatih\source\repos\IdentityLog\IdentityLog
+2023-01-02 10:10:32.114 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/ - -
+2023-01-02 10:10:32.293 +03:00 [INF] Executing endpoint 'IdentityLog.Controllers.HomeController.Index (IdentityLog)'
+2023-01-02 10:10:32.304 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityLog.Controllers.HomeController (IdentityLog).
+2023-01-02 10:10:32.309 +03:00 [INF] Index Sayfasına Giriş Yapıldı.
+2023-01-02 10:10:32.317 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-02 10:10:32.413 +03:00 [INF] Executed ViewResult - view Index executed in 98.3902ms.
+2023-01-02 10:10:32.419 +03:00 [INF] Executed action IdentityLog.Controllers.HomeController.Index (IdentityLog) in 111.3921ms
+2023-01-02 10:10:32.420 +03:00 [INF] Executed endpoint 'IdentityLog.Controllers.HomeController.Index (IdentityLog)'
+2023-01-02 10:10:32.443 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/ - - - 200 - text/html;+charset=utf-8 330.3615ms
+2023-01-02 10:10:32.456 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - -
+2023-01-02 10:10:32.456 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_vs/browserLink - -
+2023-01-02 10:10:32.476 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 19.0645ms
+2023-01-02 10:10:32.503 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 46.2175ms
+2023-01-02 10:11:12.187 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - -
+2023-01-02 10:11:12.196 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7118/lib/bootstrap/dist/css/bootstrap.min.css.map - -
+2023-01-02 10:11:12.254 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\fatih\source\repos\IdentityLog\IdentityLog\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2023-01-02 10:11:12.254 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css.map'. Physical path: 'C:\Users\fatih\source\repos\IdentityLog\IdentityLog\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map'
+2023-01-02 10:11:12.255 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - - - 200 327261 text/plain 68.3026ms
+2023-01-02 10:11:12.257 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7118/lib/bootstrap/dist/css/bootstrap.min.css.map - - - 200 449111 text/plain 60.7554ms
